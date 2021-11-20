@@ -1,0 +1,35 @@
+:root {
+  --primary-color: #333333;
+  --secondary-color: #4f4f4f;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.page__title {
+  align-self: flex-start;
+}
+
+.page__main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.page__details {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.page__heading {
+  font-size: 4rem;
+}
+
+.page__image {
+  width: 40%;
+}
