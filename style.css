@@ -58,13 +58,13 @@
 /* img */
 .page__image {
   /* width: 43vw; */
-  height: 30vw;
+  height: 53.33vh;
 }
 
 /* header */
 .page__details {
   width: 43vw;
-  min-height: 30vw;
+  min-height: 53.33vh;
   /* max-height: 85vh; */
   display: flex;
   flex-direction: column;
@@ -158,6 +158,7 @@
   }
 
   .page__desc {
+    /* margin-top: 0; */
     width: 92vw;
     font-size: 18px;
     line-height: 27px;
@@ -165,5 +166,6 @@
 
   .page__btn {
     padding: 2.8vh 10vw;
+    /* margin-top: 0; */
   }
 }
